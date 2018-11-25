@@ -31,3 +31,120 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    margin-top: -17px;
+    height: 40px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.menu a {
+    display: inline-block;
+	padding: 10px 20px; 
+    text-decoration: none;
+} 
+
+.menu a:hover {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.herobanner {
+    background: no-repeat url("images/pozadi.jpg");
+    width: 960px;
+    margin: 0px 0px 0px 195px;
+    padding: 0px;
+    position: relative;
+    height: 450px;
+}
+
+.herobanner h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 70px;
+    padding: 0px 0px 0px 20px;
+    padding-top: 30px;
+    margin: 0px;
+}
+
+.herobanner p {
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.button {
+    padding-left: 0px;
+}
+
+.button li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    border-color: white;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.button a:hover {
+    background-color: #48418e;
+}
+
+.phone {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.assets {
+    display: flex;
+    background-color: white;
+    width: 960px;
+    margin-left: 195px;
+    height: 250px;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    margin: 20px;   
+    flex-direction: column;
+}
+
+.column h2 {
+    color: #48418e;
+    font-size: 16px;
+}
+
+.column p {
+   text-align: center;
+   font-size: 14px;
+}
+
+.icon {
+    width: 60px;
+}
+
+.footer {
+    background-color: #48418e;
+    color: white;
+    width: 960px;
+    margin-left: 195px;
+    text-align: center;
+    height: 20px;
+    padding: 0px;
+    font-size: 12px;
+}
